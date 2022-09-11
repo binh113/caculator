@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th colspan="2"><label for="first"></label><input id="first" type="text"></th>
+        <th colspan="2" style="text-align: left"><label for="second"></label><input id="second" type="text"></th>
+    </tr>
+    <tr>
+        <th>
+            <button type="button" onclick="add()">addition(+)</button>
+        </th>
+        <th>
+            <button type="button" onclick="sub()">subtraction(-)</button>
+        </th>
+        <th>
+            <button type="button" onclick="mult()">multiplication(*)</button>
+        </th>
+        <th>
+            <button type="button" onclick="div()">Division(/)</button>
+        </th>
+    </tr>
+</table>
+<div>
+    <p>Result Division: <b id="result"></b></p>
+</div>
+<script src="caculator.js"></script>
+</body>
+</html>
